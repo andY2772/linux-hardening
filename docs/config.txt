@@ -1,0 +1,6 @@
+maxauthtries 3
+permitrootlogin no
+pubkeyauthentication yes
+passwordauthentication no
+x11forwarding no
+
