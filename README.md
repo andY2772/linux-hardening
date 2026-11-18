@@ -134,6 +134,7 @@ I used an AI assistant (Claude) as a **mentor and reviewer**, not as a replaceme
 - **Troubleshooting:** helped me diagnose problems from the error output I pasted (*Connection refused*, `scp` syntax, port forwarding after restoring a snapshot, fail2ban hanging connections).
 - **Reviewing:** went through my Lynis output with me to separate worthwhile fixes from changes that don't suit this setup.
 - **Scripting:** the first draft of `harden.sh` was written with AI assistance, based on the steps I had already done manually. I then read through it, ran it through ShellCheck, tested it on a clean VM (including the lockout guard and a second run), and verified the result with Lynis.
-- **Documentation:** AI helped structure this README; the testing results and the lessons above come from my own work in the lab.
+- **Documentation:** Generating this nice README.
 
-Everything in this repository was run and verified by me in the lab. I treat AI output as a draft to be checked rather than a source of truth, and I only keep what I can explain.
+
+## This repository was documented after building the lab
