@@ -13,7 +13,7 @@ I'm a third-year Cybersecurity student at FI MUNI, and I'm aiming for a junior L
 | Item | Value |
 |---|---|
 | Hypervisor | VirtualBox |
-| OS | Ubuntu Server 26.04 |
+| OS | Ubuntu Server 24.04 |
 | Networking | NAT with port forwarding (`127.0.0.1:2222` → guest `10.0.2.15:22`) |
 | Audit tool | Lynis 3.1.6 |
 | Access | SSH from the host, key-based only |
