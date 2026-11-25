@@ -6,14 +6,14 @@ A reproducible hardening setup for Ubuntu Server, built and tested in a VirtualB
 
 ## Why I built this
 
-I'm a third-year Cybersecurity student at FI MUNI, and I'm aiming for a junior Linux infrastructure / DevOps role. I wanted a project that goes beyond "I installed it and it works" and shows the full loop: **baseline → harden → measure → automate → verify**.
+I'm a third-year Cybersecurity student at FI MUNI, and I'm aiming for a junior Linux infrastructure role. I wanted a project that goes beyond "I installed it and it works" and shows the full loop: **baseline → harden → measure → automate → verify**.
 
 ## Lab environment
 
 | Item | Value |
 |---|---|
 | Hypervisor | VirtualBox |
-| OS | Ubuntu Server 24.04 |
+| OS | Ubuntu Server 26.04 |
 | Networking | NAT with port forwarding (`127.0.0.1:2222` → guest `10.0.2.15:22`) |
 | Audit tool | Lynis 3.1.6 |
 | Access | SSH from the host, key-based only |
